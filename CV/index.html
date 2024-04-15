@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Сайт-визитка Ксении</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Ксения</a></div>
+        <ul class="menu">
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#skills">Мои навыки</a></li>
+          <li><a href="#contact">Мои контакты</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Привет,</div>
+          <div class="text-two">Меня зовут Ксения</div>
+          <div class="text-three">и я - QA engineer</div>
+        </div>
+        <div class="button">
+          <button>Обо мне</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>Обо мне</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Без тестеров нет инноваций</div>
+            <p>
+                Я — QA engineer в области функционального и нефункционального тестирования с 3-х летним опытом работы.
+            <div class="button">
+              <button>Скачать резюме</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- My Services Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>Мои навыки</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">DeveloperTools</div>
+            <p>Тестирование front-части</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Postman</div>
+            <p>Тестирование API и написание автотестов при помощи сниппетов</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Kibana</div>
+            <p>Просмотр логов в системе логирования</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">PostgreSQL</div>
+            <p>Просмотр данных в БД и написание SQL-запросов</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Jira</div>
+            <p>Организация ежедневной работы и написание багрепортов</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Qase.io</div>
+            <p>Написание тестовой документации</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Мои контакты</span></div>
+        <div class="text">
+          <div class="topic">Для связи со мной</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
